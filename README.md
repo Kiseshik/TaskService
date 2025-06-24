@@ -21,11 +21,6 @@ go run cmd/main.go
 | `GET`  | `/tasks/{id}` | Получить статус задачи | 
 | `DELETE`| `/tasks/{id}`| Удалить задачу        |
 
-**Примеры статусов:**
-- Выполняется: 
-  ```json
-  { "status": "running", "progress": "45%" }
-
 ## Архитектура
 ```bash
 .
